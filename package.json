@@ -1,0 +1,25 @@
+{
+  "name": "reservation-system",
+  "version": "1.0.0",
+  "description": "Node API with MongoDB - reservation system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js --watch",
+    "mongod":"mongod --dbpath ./data/db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "MongoDB",
+    "JS",
+    "static",
+    "web",
+    "server"
+  ],
+  "author": "Suhail Taj Shaik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.0",
+    "nodemon": "^1.12.1"
+  }
+}
